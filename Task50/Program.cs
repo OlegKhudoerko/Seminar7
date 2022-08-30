@@ -16,7 +16,7 @@ Console.WriteLine();
 int m = 3; // Количество строк
 int n = 4; // Количество столбцов
 
-if (rows+1 > m || columns +1> n) 
+if (rows+1 > m || rows < 0 || columns +1> n || columns < 0) 
 {
 Console.WriteLine($"{rows}, {columns} -> такого числа в массиве нет");
 return;
